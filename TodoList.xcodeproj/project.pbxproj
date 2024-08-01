@@ -9,26 +9,41 @@
 /* Begin PBXBuildFile section */
 		81FD0EBD2C47A2F8008D4B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EBC2C47A2F8008D4B43 /* AppDelegate.m */; };
 		81FD0EC02C47A2F8008D4B43 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EBF2C47A2F8008D4B43 /* SceneDelegate.m */; };
-		81FD0EC32C47A2F8008D4B43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EC22C47A2F8008D4B43 /* ViewController.m */; };
 		81FD0EC62C47A2F8008D4B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FD0EC42C47A2F8008D4B43 /* Main.storyboard */; };
 		81FD0EC82C47A2FB008D4B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FD0EC72C47A2FB008D4B43 /* Assets.xcassets */; };
 		81FD0ECB2C47A2FB008D4B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FD0EC92C47A2FB008D4B43 /* LaunchScreen.storyboard */; };
 		81FD0ECE2C47A2FB008D4B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0ECD2C47A2FB008D4B43 /* main.m */; };
+		81FD0ED62C47AC1A008D4B43 /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0ED52C47AC1A008D4B43 /* VC1.m */; };
+		81FD0ED92C47AC2F008D4B43 /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0ED82C47AC2F008D4B43 /* VC2.m */; };
+		81FD0EDC2C47AC42008D4B43 /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EDB2C47AC42008D4B43 /* VC3.m */; };
+		81FD0EDF2C47B9CD008D4B43 /* addandedit.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EDE2C47B9CD008D4B43 /* addandedit.m */; };
+		81FD0EE22C47C3B6008D4B43 /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EE12C47C3B6008D4B43 /* Notes.m */; };
+		81FD0EE52C47C805008D4B43 /* NSUserDefaults+mycat.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FD0EE42C47C805008D4B43 /* NSUserDefaults+mycat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E306D132C4A36BA000A4D35 /* NSUserDefaults+mycat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+mycat.h"; sourceTree = "<group>"; };
 		81FD0EB82C47A2F8008D4B43 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FD0EBB2C47A2F8008D4B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81FD0EBC2C47A2F8008D4B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		81FD0EBE2C47A2F8008D4B43 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		81FD0EBF2C47A2F8008D4B43 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		81FD0EC12C47A2F8008D4B43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81FD0EC22C47A2F8008D4B43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81FD0EC52C47A2F8008D4B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81FD0EC72C47A2FB008D4B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81FD0ECA2C47A2FB008D4B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81FD0ECC2C47A2FB008D4B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81FD0ECD2C47A2FB008D4B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81FD0ED42C47AC1A008D4B43 /* VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC1.h; sourceTree = "<group>"; };
+		81FD0ED52C47AC1A008D4B43 /* VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC1.m; sourceTree = "<group>"; };
+		81FD0ED72C47AC2F008D4B43 /* VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC2.h; sourceTree = "<group>"; };
+		81FD0ED82C47AC2F008D4B43 /* VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC2.m; sourceTree = "<group>"; };
+		81FD0EDA2C47AC42008D4B43 /* VC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC3.h; sourceTree = "<group>"; };
+		81FD0EDB2C47AC42008D4B43 /* VC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC3.m; sourceTree = "<group>"; };
+		81FD0EDD2C47B9CD008D4B43 /* addandedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addandedit.h; sourceTree = "<group>"; };
+		81FD0EDE2C47B9CD008D4B43 /* addandedit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addandedit.m; sourceTree = "<group>"; };
+		81FD0EE02C47C3B6008D4B43 /* Notes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		81FD0EE12C47C3B6008D4B43 /* Notes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		81FD0EE42C47C805008D4B43 /* NSUserDefaults+mycat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+mycat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +57,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E306D142C4A59ED000A4D35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81FD0ED42C47AC1A008D4B43 /* VC1.h */,
+				81FD0ED52C47AC1A008D4B43 /* VC1.m */,
+				81FD0ED72C47AC2F008D4B43 /* VC2.h */,
+				81FD0ED82C47AC2F008D4B43 /* VC2.m */,
+				81FD0EDA2C47AC42008D4B43 /* VC3.h */,
+				81FD0EDB2C47AC42008D4B43 /* VC3.m */,
+				81FD0EDD2C47B9CD008D4B43 /* addandedit.h */,
+				81FD0EDE2C47B9CD008D4B43 /* addandedit.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E306D152C4A5A6C000A4D35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81FD0EE02C47C3B6008D4B43 /* Notes.h */,
+				81FD0EE12C47C3B6008D4B43 /* Notes.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1E306D162C4A5ABD000A4D35 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1E306D132C4A36BA000A4D35 /* NSUserDefaults+mycat.h */,
+				81FD0EE42C47C805008D4B43 /* NSUserDefaults+mycat.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		1E306D172C4A5AD2000A4D35 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				81FD0EC42C47A2F8008D4B43 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		81FD0EAF2C47A2F8008D4B43 = {
 			isa = PBXGroup;
 			children = (
@@ -61,13 +117,14 @@
 		81FD0EBA2C47A2F8008D4B43 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				1E306D162C4A5ABD000A4D35 /* DataBase */,
+				1E306D152C4A5A6C000A4D35 /* Models */,
+				1E306D172C4A5AD2000A4D35 /* view */,
+				1E306D142C4A59ED000A4D35 /* Controllers */,
 				81FD0EBB2C47A2F8008D4B43 /* AppDelegate.h */,
 				81FD0EBC2C47A2F8008D4B43 /* AppDelegate.m */,
 				81FD0EBE2C47A2F8008D4B43 /* SceneDelegate.h */,
 				81FD0EBF2C47A2F8008D4B43 /* SceneDelegate.m */,
-				81FD0EC12C47A2F8008D4B43 /* ViewController.h */,
-				81FD0EC22C47A2F8008D4B43 /* ViewController.m */,
-				81FD0EC42C47A2F8008D4B43 /* Main.storyboard */,
 				81FD0EC72C47A2FB008D4B43 /* Assets.xcassets */,
 				81FD0EC92C47A2FB008D4B43 /* LaunchScreen.storyboard */,
 				81FD0ECC2C47A2FB008D4B43 /* Info.plist */,
@@ -146,9 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81FD0EC32C47A2F8008D4B43 /* ViewController.m in Sources */,
+				81FD0EDF2C47B9CD008D4B43 /* addandedit.m in Sources */,
+				81FD0ED92C47AC2F008D4B43 /* VC2.m in Sources */,
+				81FD0ED62C47AC1A008D4B43 /* VC1.m in Sources */,
+				81FD0EE52C47C805008D4B43 /* NSUserDefaults+mycat.m in Sources */,
 				81FD0EBD2C47A2F8008D4B43 /* AppDelegate.m in Sources */,
 				81FD0ECE2C47A2FB008D4B43 /* main.m in Sources */,
+				81FD0EE22C47C3B6008D4B43 /* Notes.m in Sources */,
+				81FD0EDC2C47AC42008D4B43 /* VC3.m in Sources */,
 				81FD0EC02C47A2F8008D4B43 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A83FN5933K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = eltodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,6 +381,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A83FN5933K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = eltodo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

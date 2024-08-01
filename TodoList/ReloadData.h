@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol ReloadData <NSObject>
-
+-(void)reload;
 @end
 
 NS_ASSUME_NONNULL_END

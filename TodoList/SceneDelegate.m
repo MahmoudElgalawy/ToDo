@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.m
-//  TodoList
-//
-//  Created by ios on 17/07/2024.
-//
+
 
 #import "SceneDelegate.h"
 
